@@ -29,5 +29,8 @@ abstract public class GameCharacter {
         return this.hitPoints;
     }
 
-
+    //Creates a setter method for the damagePoints attribute
+    public void setDamagePoints(int damagePoints){
+        this.damagePoints = damagePoints;
+    }
 }

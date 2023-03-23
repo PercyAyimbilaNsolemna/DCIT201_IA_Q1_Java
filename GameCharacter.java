@@ -33,4 +33,9 @@ abstract public class GameCharacter {
     public void setDamagePoints(int damagePoints){
         this.damagePoints = damagePoints;
     }
+
+    //Creates a getter method for the damagePoints attribute
+    public int getDamagePoints(){
+        return this.damagePoints;
+    }
 }

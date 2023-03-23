@@ -20,5 +20,9 @@ abstract public class GameCharacter {
     }
 
     //Creates a setter for the hitPoints attribute
-    public viod
+    public void setHitPoints(int hitPoints){
+        this.hitPoints = hitPoints;
+    }
+
+
 }

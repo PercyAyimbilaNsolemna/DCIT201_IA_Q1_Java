@@ -24,5 +24,10 @@ abstract public class GameCharacter {
         this.hitPoints = hitPoints;
     }
 
+    //Creates a getter method for the hitPoints attribute
+    public int getHitPoints(){
+        return this.hitPoints;
+    }
+
 
 }

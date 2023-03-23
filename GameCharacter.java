@@ -1,4 +1,4 @@
-abstract public class GameCharacter {
+public class GameCharacter {
 
     //Creates the attributes of the GameCharacter class
     private String name;

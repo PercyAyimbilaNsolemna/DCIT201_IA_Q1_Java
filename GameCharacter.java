@@ -8,4 +8,9 @@ abstract public class GameCharacter {
     public GameCharacter(){
 
     }
+
+    //Creates a setter for the name attribute
+    public void setName(String name){
+        this.name = name;
+    }
 }

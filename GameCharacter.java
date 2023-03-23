@@ -13,4 +13,12 @@ abstract public class GameCharacter {
     public void setName(String name){
         this.name = name;
     }
+
+    //Creates a getter for the name attribute
+    public String getName(){
+        return this.name;
+    }
+
+    //Creates a setter for the hitPoints attribute
+    public viod
 }

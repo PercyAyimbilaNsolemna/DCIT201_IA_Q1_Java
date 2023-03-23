@@ -38,4 +38,9 @@ public class GameCharacter {
     public int getDamagePoints(){
         return this.damagePoints;
     }
+
+    //Creates an attack method
+    public void attack(GameCharacter character){
+        character.hitPoints = character.hitPoints - character.damagePoints;
+    }
 }

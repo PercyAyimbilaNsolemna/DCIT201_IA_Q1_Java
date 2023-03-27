@@ -11,4 +11,10 @@ public class Enemy extends GameCharacter{
     public void setType(String type){
         this.type = type;
     }
+
+    //Creates a takeDamage class
+    public void takeDamage(int damage){
+        this.setHitPoints(this.getHitPoints() - damage);
+        System.out.println("Damage dealt was " + damage);
+    }
 }

@@ -8,5 +8,10 @@ public class Player extends GameCharacter{
 
     }
 
+    //Creates a getter and setter methods for the level
+    public int getLevel(){
+        return this.level;
+    }
+
 
 }

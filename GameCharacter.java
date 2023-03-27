@@ -1,5 +1,4 @@
 public class GameCharacter {
-
     //Creates the attributes of the GameCharacter class
     private String name;
     private int hitPoints, damagePoints;
@@ -43,4 +42,5 @@ public class GameCharacter {
     public void attack(GameCharacter character){
         character.hitPoints = character.hitPoints - character.damagePoints;
     }
+
 }

@@ -26,6 +26,17 @@ public class Player extends GameCharacter{
         this.experiencePoints = experiencePoints;
     }
 
+    //Creates a gain experience method
+    public void gainExperience(int experience){
+        this.experiencePoints = this.experiencePoints + experience;
+
+        if (this.experiencePoints == this.level){
+            this.level = this.level + experience;
+            this.setHitPoints(this.getHitPoints() + experience);
+            this.setDamagePoints(this.getDamagePoints() + experience);
+        }
+    }
+
 
 
 

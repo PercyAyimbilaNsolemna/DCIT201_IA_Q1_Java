@@ -17,6 +17,11 @@ public class Player extends GameCharacter{
         this.level = level;
     }
 
+    //Creates a getter and getter methods for the gameExperience attributes
+    public int getExperienceLevel(){
+        return this.experienceLevel;
+    }
+
 
 
 

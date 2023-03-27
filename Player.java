@@ -13,5 +13,11 @@ public class Player extends GameCharacter{
         return this.level;
     }
 
+    public void setLevel(int level){
+        this.level = level;
+    }
+
+
+
 
 }

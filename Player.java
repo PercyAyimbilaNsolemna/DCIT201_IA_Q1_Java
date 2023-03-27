@@ -1,7 +1,7 @@
 public class Player extends GameCharacter{
     //Declares the attributes of the class
     private int level;
-    private int experienceLevel;
+    private int experiencePoints;
 
     //Creates a signature constructor for the class
     public Player (){
@@ -18,12 +18,12 @@ public class Player extends GameCharacter{
     }
 
     //Creates a getter and getter methods for the gameExperience attributes
-    public int getExperienceLevel(){
-        return this.experienceLevel;
+    public int getExperiencePoints(){
+        return this.experiencePoints;
     }
 
-    public void setExperienceLevel(int experienceLevel){
-        this.experienceLevel = experienceLevel;
+    public void setExperiencePoints(int experiencePoints){
+        this.experiencePoints = experiencePoints;
     }
 
 

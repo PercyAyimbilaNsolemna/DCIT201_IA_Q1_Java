@@ -22,6 +22,12 @@ public class Player extends GameCharacter{
         return this.experienceLevel;
     }
 
+    public void setExperienceLevel(int experienceLevel){
+        this.experienceLevel = experienceLevel;
+    }
+
+
+
 
 
 

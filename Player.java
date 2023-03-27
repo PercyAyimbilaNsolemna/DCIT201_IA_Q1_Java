@@ -3,5 +3,10 @@ public class Player extends GameCharacter{
     private int level;
     private int experienceLevel;
 
+    //Creates a signature constructor for the class
+    public Player (){
+
+    }
+
 
 }
